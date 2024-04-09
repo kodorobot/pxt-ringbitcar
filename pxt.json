@@ -5,7 +5,7 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "neopixel": "github:elecfreaks/pxt-neopixel"
+        "neopixel": "github:microsoft/pxt-neopixel"
     },
     "files": [
         "README.md",
@@ -19,14 +19,16 @@
         "_locales/zh-CN/RingbitCar-jsdoc-strings.json",
         "_locales/zh-TW/RingbitCar-strings.json",
         "_locales/hu/RingbitCar-jsdoc-strings.json",
-        "_locales/hu/RingbitCar-strings.json"
+        "_locales/hu/RingbitCar-strings.json",
+        "main.py",
+        "main.ts"
     ],
     "testFiles": [
         "tests.ts"
     ],
     "public": true,
     "targetVersions": {
-        "target": "6.0.17",
+        "target": "6.0.25",
         "targetId": "microbit"
     },
     "supportedTargets": [
